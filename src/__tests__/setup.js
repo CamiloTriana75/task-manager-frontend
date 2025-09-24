@@ -1,0 +1,1 @@
+// Setup básico para Vitest
