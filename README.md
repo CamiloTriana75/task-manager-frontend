@@ -1,4 +1,4 @@
-# <REPO_NAME>
+# task-manager-frontend
 
 Frontend en React (Vite) para Task Manager. Consume una API REST (Django DRF).
 

@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken, removeToken } from "../utils/storage";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "<API_BASE_URL>", // reemplazar con la URL real
+  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api", // URL por defecto para desarrollo
   headers: {
     "Content-Type": "application/json",
   },
